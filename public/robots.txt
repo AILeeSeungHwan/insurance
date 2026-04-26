@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /search
+Disallow: /searchAnalytics
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Daumoa
+Allow: /
+
+Sitemap: https://insurancemoa.ambitstock.com/sitemap.xml
+Sitemap: https://insurancemoa.ambitstock.com/sitemap-core.xml
+Sitemap: https://insurancemoa.ambitstock.com/sitemap-products.xml
+Sitemap: https://insurancemoa.ambitstock.com/sitemap-categories.xml
+Sitemap: https://insurancemoa.ambitstock.com/sitemap-companies.xml
+Sitemap: https://insurancemoa.ambitstock.com/sitemap-guides.xml
+Sitemap: https://insurancemoa.ambitstock.com/sitemap-compares.xml
+Sitemap: https://insurancemoa.ambitstock.com/sitemap-tools.xml
+Sitemap: https://insurancemoa.ambitstock.com/sitemap-situations.xml
+Sitemap: https://insurancemoa.ambitstock.com/sitemap-addons.xml

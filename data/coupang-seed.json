@@ -1,0 +1,11 @@
+[
+  { "product_name": "블랙박스 2채널", "category": "운전용품", "coupang_url": null, "post_slugs": ["blackbox","first-car"], "notes": "자동차/운전자보험 할인 유도 가능" },
+  { "product_name": "비상탈출 망치", "category": "안전용품", "coupang_url": null, "post_slugs": ["car-emergency-hammer","first-car"], "notes": "운전자보험 연계 생활안전용품" },
+  { "product_name": "차량용 공기청정기 HEPA", "category": "차량용품", "coupang_url": null, "post_slugs": ["car-air-purifier"], "notes": "장거리 운전자 건강 보조" },
+  { "product_name": "유아 카시트 ISOFIX", "category": "유아안전", "coupang_url": null, "post_slugs": ["baby-car-seat","child-birth"], "notes": "태아·어린이보험 연계" },
+  { "product_name": "욕실 미끄럼방지 매트 손잡이", "category": "시니어케어", "coupang_url": null, "post_slugs": ["senior-fall-prevention","senior-60"], "notes": "간병보험 연계 낙상방지" },
+  { "product_name": "여행용 복대", "category": "여행용품", "coupang_url": null, "post_slugs": ["travel-safety-belt"], "notes": "여행자보험 연계" },
+  { "product_name": "반려동물 체온계 체중계", "category": "반려동물", "coupang_url": null, "post_slugs": ["pet-health-checker"], "notes": "펫보험 자가관찰" },
+  { "product_name": "가정용 혈압계 팔뚝형", "category": "건강용품", "coupang_url": null, "post_slugs": ["home-blood-pressure"], "notes": "암·심혈관 보험 가입 자가측정" },
+  { "product_name": "전동칫솔", "category": "구강케어", "coupang_url": null, "post_slugs": ["dental-compare"], "notes": "치아보험 연계 예방" }
+]
