@@ -1,119 +1,44 @@
 const post = {
-  "id": "C0007",
-  "sections": [
-    {
-      "type": "intro",
-      "html": "<p><strong>DB손해보험</strong>은 손해보험 분야의 주요 회사로, 1962년에 설립되었습니다. 본 페이지는 금감원·손해보험협회 공시 자료를 기준으로 회사 개요, 재무건전성 지표, 주력 상품군, 청구 채널을 정리합니다.</p><p style=\"font-size:13px;color:#888;margin-top:12px\">※ 본 사이트는 이 보험사의 상품을 판매·모집하지 않습니다.</p>"
-    },
-    {
-      "type": "toc"
-    },
-    {
-      "type": "h2",
-      "id": "overview",
-      "text": "한눈에 보기"
-    },
-    {
-      "type": "body",
-      "html": "<ul><li>정식 명칭: DB손해보험</li><li>분류: 손해보험</li><li>설립: 1962년</li><li>공식 웹사이트: <a href=\"https://www.directdb.co.kr\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.directdb.co.kr</a></li></ul>"
-    },
-    {
-      "type": "h2",
-      "id": "history",
-      "text": "회사 개요"
-    },
-    {
-      "type": "body",
-      "html": "<p>DB손해보험은 한국 손해보험 시장에서 주요한 위치를 차지하는 회사로, 자산규모·가입자수·상품군 범위에서 상위권에 속합니다. 계열사 네트워크와 판매 채널(대면·방카·텔레·다이렉트)을 통해 다양한 고객층을 대상으로 서비스를 제공합니다.</p>"
-    },
-    {
-      "type": "h2",
-      "id": "soundness",
-      "text": "재무건전성 (공시 기반)"
-    },
-    {
-      "type": "info",
-      "title": "재무 지표 기준",
-      "html": "<p>지급여력비율(K-ICS), 자본금, 민원 건수 지표는 2026-01-01 공시 기준입니다. 실제 수치는 금감원 금융통계정보시스템(https://fisis.fss.or.kr)에서 확인하세요.</p>"
-    },
-    {
-      "type": "body",
-      "html": "<p>지급여력비율(K-ICS)은 보험사의 자본 건전성을 보여주는 지표로, 규제 기준(일반적으로 150% 이상)을 상회하는 회사가 안정적이라고 평가됩니다. 구체적인 수치는 시점에 따라 변하므로 금감원 공시를 직접 확인해야 합니다.</p>"
-    },
-    {
-      "type": "h2",
-      "id": "products",
-      "text": "주요 상품 카테고리"
-    },
-    {
-      "type": "body",
-      "html": "<p>자동차·실손·장기손해·치아·운전자·펫 등 손해보험 기본 라인업을 운영합니다. 상품별 공시 자료는 각 보험사 공시실과 금감원 금융상품통합비교공시에서 확인할 수 있습니다.</p>"
-    },
-    {
-      "type": "h2",
-      "id": "claim",
-      "text": "청구 채널·고객센터"
-    },
-    {
-      "type": "body",
-      "html": "<p>공식 웹사이트·모바일 앱·콜센터·영업점을 통해 청구 가능. 소액은 앱 청구, 고액·복잡한 건은 서류 제출이 일반적입니다.</p>"
-    },
-    {
-      "type": "h2",
-      "id": "faq",
-      "text": "자주 묻는 질문"
-    },
-    {
-      "type": "faq",
-      "items": [
-        {
-          "q": "재무건전성이 낮아지면 가입자에게 영향이 있나요?",
-          "a": "보험사 지급여력이 규제 기준 아래로 떨어지면 금감원이 개선 조치를 요구합니다. 계약자는 예금자보호 한도(5천만원) 내에서 보호됩니다."
-        },
-        {
-          "q": "고객센터 운영시간은?",
-          "a": "대부분 평일 09:00~18:00, 일부 24시간 사고 접수 창구 운영."
-        },
-        {
-          "q": "타 회사로 계약 이전 가능한가요?",
-          "a": "보장성 보험은 이전 불가능. 해지·신규 가입 방식입니다."
-        },
-        {
-          "q": "다이렉트와 설계사 채널은 보장이 다른가요?",
-          "a": "상품은 동일하나 판매비·할인 구조가 다릅니다."
-        },
-        {
-          "q": "공시 자료는 어디서 확인하나요?",
-          "a": "각 보험사 홈페이지의 공시실 메뉴 및 협회 공시실에서 확인할 수 있습니다."
-        }
-      ]
-    },
-    {
-      "type": "sources",
-      "items": [
-        {
-          "label": "금융감독원 금융상품통합비교공시",
-          "url": "https://finlife.fss.or.kr",
-          "org": "금융감독원",
-          "accessedAt": "2026-04-25"
-        },
-        {
-          "label": "생명보험협회 공시실",
-          "url": "https://www.klia.or.kr",
-          "org": "생명보험협회",
-          "accessedAt": "2026-04-25"
-        },
-        {
-          "label": "손해보험협회 공시실",
-          "url": "https://www.knia.or.kr",
-          "org": "손해보험협회",
-          "accessedAt": "2026-04-25"
-        }
-      ]
-    },
-    {
-      "type": "medDisclaimer"
-    }
+  id: 'C0007',
+  sections: [
+    { type: 'intro', html: '<p><strong>DB손해보험은 1962년 동부화재로 출발해 2017년 DB손해보험으로 사명을 변경한 손해보험 빅3 회사</strong>입니다. 운전자보험·암·치아·종합 등 장기손해보험 라인업이 강하며, "프로미" 브랜드로 다이렉트 자동차보험 시장에서 강한 가격 경쟁력을 보유합니다.</p><p>이 글은 DB손해보험의 회사 개요·재무건전성·주력 상품·청구 채널을 정리합니다.</p><p style="font-size:13px;color:#888;margin-top:12px">※ 본 사이트는 보험상품을 판매·모집하지 않습니다.</p>' },
+    { type: 'toc' },
+
+    { type: 'h2', id: 'overview', text: '한눈에 보기' },
+    { type: 'body', html: '<table style="width:100%;border-collapse:collapse;font-size:14px"><tr style="background:#F3F4F6"><th style="padding:8px;border:1px solid #E5E7EB;text-align:left;width:35%">항목</th><th style="padding:8px;border:1px solid #E5E7EB;text-align:left">내용</th></tr><tr><td style="padding:8px;border:1px solid #E5E7EB">정식 명칭</td><td style="padding:8px;border:1px solid #E5E7EB">DB손해보험 주식회사</td></tr><tr><td style="padding:8px;border:1px solid #E5E7EB">분류</td><td style="padding:8px;border:1px solid #E5E7EB">손해보험사</td></tr><tr><td style="padding:8px;border:1px solid #E5E7EB">설립</td><td style="padding:8px;border:1px solid #E5E7EB">1962년 (동부화재) / 2017년 사명 변경</td></tr><tr><td style="padding:8px;border:1px solid #E5E7EB">시장 위치</td><td style="padding:8px;border:1px solid #E5E7EB">손해보험 빅3</td></tr><tr><td style="padding:8px;border:1px solid #E5E7EB">대표 다이렉트</td><td style="padding:8px;border:1px solid #E5E7EB">DB 다이렉트 (프로미)</td></tr><tr><td style="padding:8px;border:1px solid #E5E7EB">공식 웹사이트</td><td style="padding:8px;border:1px solid #E5E7EB"><a href="https://www.directdb.co.kr" target="_blank" rel="noopener noreferrer">www.directdb.co.kr</a></td></tr><tr><td style="padding:8px;border:1px solid #E5E7EB">고객센터</td><td style="padding:8px;border:1px solid #E5E7EB">1588-0100</td></tr></table>' },
+
+    { type: 'h2', id: 'history', text: '회사 개요' },
+    { type: 'body', html: '<p>DB금융그룹 산하 손해보험사. 자동차·운전자·장기손해보험에 강점을 가지며 "프로미드라이브" 운전자보험은 시장 점유율 상위. 사고 처리 영업일 평균이 짧은 편으로 평가됩니다.</p>' },
+
+    { type: 'h2', id: 'soundness', text: '재무건전성 (공시 기반)' },
+    { type: 'info', title: '재무 지표 기준', html: '<p>K-ICS·자본 규모는 공시. DB손해보험 공시실에서 확인.</p>' },
+    { type: 'body', html: '<p>K-ICS 규제 기준 이상 유지. 자산 규모 손해보험 빅3. 민원 지표 양호.</p>' },
+
+    { type: 'h2', id: 'products', text: '주요 상품 카테고리' },
+    { type: 'body', html: '<ul><li><strong>자동차보험 — DB 다이렉트</strong></li><li><strong>운전자보험 — 프로미드라이브 (점유율 상위)</strong></li><li><strong>실손의료보험 4세대</strong></li><li><strong>암·치아·간병보험</strong></li><li><strong>화재·배상책임</strong></li></ul><p>대표 상품: <a href="/products/db-driver/">DB 프로미드라이브 운전자보험</a>.</p>' },
+
+    { type: 'h2', id: 'claim', text: '청구 채널·고객센터' },
+    { type: 'body', html: '<ul><li>프로미앱 — 영수증 사진 청구</li><li>홈페이지 e-청구</li><li>콜센터 1588-0100</li><li>전국 영업점·현장출동</li></ul><p>실손 청구 간소화법 적용.</p>' },
+
+    { type: 'h2', id: 'faq', text: '자주 묻는 질문' },
+    { type: 'faq', items: [
+      { q: '동부화재와 DB손해보험은 같은 회사?', a: '네. 사명만 변경. 기존 약관·계약 모두 그대로 승계.' },
+      { q: '운전자보험 점유율이 1위인가요?', a: '시장 상위권으로 평가됨. 단정적 1위는 시점·지표마다 다름.' },
+      { q: '다이렉트 가격 경쟁력은?', a: '5대사 중 가격 경쟁력 강한 편. 직접 견적 비교 권장.' },
+      { q: '사고 처리 영업일 평균은?', a: '소액 3~5일, 고액 5~10일. 회사별 미세 차이.' },
+      { q: '프로미앱 기능은?', a: '청구·계약 조회·사고 접수 통합.' },
+      { q: '재무건전성?', a: 'K-ICS 규제 기준 이상. 공시실에서 정확한 수치 확인.' },
+      { q: '예금자보호 한도?', a: '해약환급금 5,000만원.' },
+      { q: '자동차+운전자보험 묶음 할인?', a: '같은 회사 가입 시 5~10% 가능.' },
+    ]},
+
+    { type: 'sources', items: [
+      { label: 'DB손해보험 공시실', url: 'https://www.directdb.co.kr', org: 'DB손해보험', accessedAt: '2026-04-28' },
+      { label: '손해보험협회 공시실', url: 'https://www.knia.or.kr', org: '손해보험협회', accessedAt: '2026-04-28' },
+      { label: '금감원 FISIS', url: 'https://fisis.fss.or.kr', org: '금융감독원', accessedAt: '2026-04-28' },
+    ]},
+
+    { type: 'medDisclaimer' }
   ]
 }
 module.exports = post

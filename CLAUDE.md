@@ -122,8 +122,14 @@ insurancemoa/
 4. 포스트 생성 → `posts/{entity}/{slug}.js` + `data/{entity}.js`에 메타 추가
 5. Addon이면 `data/coupang-seed.json`에 제안 항목 추가
 6. `node --check posts/{entity}/{slug}.js` 로 검증
-7. `node scripts/generate-sitemap.js` `node scripts/generate-feeds.js`
-8. `MEMORY.md` 진행 로그 업데이트
+7. **`npm run prebuild`** ← 필수 (=generate-sitemap + generate-feeds)
+8. 커밋 직전 staged 파일 확인: `data/`, `posts/`, **`public/sitemap*.xml`, `public/rss.xml`, `public/atom.xml` 모두 포함**
+9. `git commit` → `git push`
+10. `MEMORY.md` 진행 로그 업데이트
+
+### ⚠️ sitemap·RSS·feeds 자동 동기화 — 절대 누락 금지
+
+`data/*.js` 또는 `posts/**/*.js` 가 한 줄이라도 변경되면 `npm run prebuild` 실행 필수. 검색엔진 색인이 실제 콘텐츠와 어긋나면 SEO 손실. 자동화 포스팅(launchd / cron / GitHub Actions)도 동일 적용 — `prebuild` 단계가 빠진 자동화는 절대 만들지 말 것.
 
 ---
 
