@@ -2,9 +2,11 @@
 const fs = require('fs')
 const path = require('path')
 
+try { require('dotenv').config({ path: path.join(__dirname, '..', '.env.local') }) } catch {}
+
 const posts = require('../data/posts')
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://insurancemoa.ambitstock.com'
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://insurance.ambitstock.com'
 const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || '보험모아'
 const FEED_DESC = '보험 비교·계산·청구 가이드 — 금감원·협회 공시 기준의 중립 정보.'
 

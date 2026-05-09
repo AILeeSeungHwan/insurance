@@ -2,6 +2,8 @@
 const fs = require('fs')
 const path = require('path')
 
+try { require('dotenv').config({ path: path.join(__dirname, '..', '.env.local') }) } catch {}
+
 const products   = require('../data/products')
 const categories = require('../data/categories')
 const companies  = require('../data/companies')
@@ -11,7 +13,7 @@ const tools      = require('../data/tools')
 const compares   = require('../data/compares')
 const addons     = require('../data/addons')
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://insurancemoa.ambitstock.com'
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://insurance.ambitstock.com'
 const now = new Date().toISOString().slice(0, 10)
 
 function url(loc, lastmod, priority, changefreq) {
