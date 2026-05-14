@@ -9,7 +9,7 @@ import Faq from './Faq'
 import CalculatorWidget from './calculators'
 import { AuthorByline, AuthorCardFull } from './AuthorCard'
 import {
-  InfoBox, WarningBox, RiskBox, InsuranceDisclaimer, SourceList, YmylBadge
+  InfoBox, WarningBox, RiskBox, InsuranceDisclaimer, SourceList, YmylBadge, ExperienceBox
 } from './InsuranceBoxes'
 import {
   articleSchema, breadcrumbSchema, faqSchema,
@@ -62,6 +62,7 @@ function Section({ section, coupangLinks }) {
   if (s.type === 'info')      return <InfoBox html={s.html} title={s.title} />
   if (s.type === 'warning')   return <WarningBox html={s.html} title={s.title} />
   if (s.type === 'emergency' || s.type === 'risk') return <RiskBox html={s.html} title={s.title} />
+  if (s.type === 'experience') return <ExperienceBox html={s.html} name={s.name} role={s.role} />
   if (s.type === 'sources')   return <SourceList items={s.items} />
   if (s.type === 'faq')       return <Faq items={s.items} />
   if (s.type === 'medDisclaimer' || s.type === 'disclaimer') return <InsuranceDisclaimer />

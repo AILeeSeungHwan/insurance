@@ -97,6 +97,30 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://insurance.ambitstock.com/categories/jongshin/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://insurance.ambitstock.com/categories/jeonggi/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://insurance.ambitstock.com/categories/caregiving/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://insurance.ambitstock.com/categories/accident/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://insurance.ambitstock.com/companies/samsung-life/</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
@@ -189,6 +213,18 @@
   <url>
     <loc>https://insurance.ambitstock.com/guides/claim-dispute-guide/</loc>
     <lastmod>2026-04-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://insurance.ambitstock.com/guides/silson-1gen-keepit/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://insurance.ambitstock.com/guides/refund-insurance-exit-check/</loc>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>

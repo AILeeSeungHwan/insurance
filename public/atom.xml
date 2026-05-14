@@ -4,8 +4,56 @@
   <link href="https://insurance.ambitstock.com/" />
   <link rel="self" type="application/atom+xml" href="https://insurance.ambitstock.com/atom.xml" />
   <id>https://insurance.ambitstock.com/</id>
-  <updated>2026-05-09T06:38:45.212Z</updated>
+  <updated>2026-05-14T12:37:09.674Z</updated>
   <subtitle>보험 비교·계산·청구 가이드 — 금감원·협회 공시 기준의 중립 정보.</subtitle>
+  <entry>
+    <title><![CDATA[종신보험 — 사망보험금 구조와 CI·변액 차이, 해지환급금 완전 정리]]></title>
+    <link href="https://insurance.ambitstock.com/categories/jongshin/" />
+    <id>https://insurance.ambitstock.com/categories/jongshin/</id>
+    <updated>2026-05-13T15:00:00.000Z</updated>
+    <category term="종신" />
+    <summary><![CDATA[일반종신·CI종신·변액종신의 보장 구조 차이, 해지환급금 역마진 구간, 감액납입·보험료 유예 활용법, 상속 대비 목적의 종신보험 설계 포인트를 공시 기준으로 정리합니다.]]></summary>
+  </entry>
+  <entry>
+    <title><![CDATA[정기보험 — 종신보험보다 저렴한 이유와 30대 가장의 최적 보장 설계]]></title>
+    <link href="https://insurance.ambitstock.com/categories/jeonggi/" />
+    <id>https://insurance.ambitstock.com/categories/jeonggi/</id>
+    <updated>2026-05-13T15:00:00.000Z</updated>
+    <category term="정기" />
+    <summary><![CDATA[정기보험의 보장기간 구조(10·20·30년형), 종신보험 대비 보험료 차이, 갱신형·비갱신형 선택 기준, 30~40대 소득 보장 목적에서의 활용 방법을 공시 기준으로 정리합니다.]]></summary>
+  </entry>
+  <entry>
+    <title><![CDATA[간병보험·LTC — 장기요양등급 연동 구조와 치매보험의 차이]]></title>
+    <link href="https://insurance.ambitstock.com/categories/caregiving/" />
+    <id>https://insurance.ambitstock.com/categories/caregiving/</id>
+    <updated>2026-05-13T15:00:00.000Z</updated>
+    <category term="간병" />
+    <summary><![CDATA[노인장기요양보험 등급(1~5등급) 연동 간병보험의 보험금 지급 구조, 치매보험과의 중복·차이, 60세 이후 간병비 현실과 필요 보장 규모, 선택 기준을 공시 기준으로 정리합니다.]]></summary>
+  </entry>
+  <entry>
+    <title><![CDATA[상해보험 — 질병보험과 다른 점, 일상생활배상책임·레저 특약 구조]]></title>
+    <link href="https://insurance.ambitstock.com/categories/accident/" />
+    <id>https://insurance.ambitstock.com/categories/accident/</id>
+    <updated>2026-05-13T15:00:00.000Z</updated>
+    <category term="상해" />
+    <summary><![CDATA[상해보험의 보험금 지급 요건(급격·우연·외래), 질병보험과의 차이, 일상생활배상책임·스포츠레저 특약 활용, 여행자보험·운전자보험과의 중복 여부를 공시 기준으로 정리합니다.]]></summary>
+  </entry>
+  <entry>
+    <title><![CDATA[1세대 실손보험 절대 바꾸지 말아야 하는 이유 — 4세대 전환 권유 실제 사례와 세대별 보장 비교]]></title>
+    <link href="https://insurance.ambitstock.com/guides/silson-1gen-keepit/" />
+    <id>https://insurance.ambitstock.com/guides/silson-1gen-keepit/</id>
+    <updated>2026-05-13T15:00:00.000Z</updated>
+    <category term="guide" />
+    <summary><![CDATA[1세대 실손 보유자에게 4세대 전환을 권유하는 사례가 반복됩니다. 세대별 비급여 보장 구조 차이, 전환 시 실질 손해액 계산, 갱신 불가 허위 고지 사례를 실제 경험과 함께 공시 기준으로 정리합니다.]]></summary>
+  </entry>
+  <entry>
+    <title><![CDATA[환급형 보험 해지 전 반드시 확인할 5가지 — 8년 보유 보험 해지 경험에서 배운 것]]></title>
+    <link href="https://insurance.ambitstock.com/guides/refund-insurance-exit-check/" />
+    <id>https://insurance.ambitstock.com/guides/refund-insurance-exit-check/</id>
+    <updated>2026-05-13T15:00:00.000Z</updated>
+    <category term="guide" />
+    <summary><![CDATA[환급형·저해지환급형 보험을 해지하기 전 반드시 점검해야 할 납입기간별 환급률, 손익분기점 구간, 감액납입·보험료 납입 유예 대안, 그리고 해지 후 재가입 리스크를 정리합니다.]]></summary>
+  </entry>
   <entry>
     <title><![CDATA[삼성화재 착한실손의료비보험 (4세대) — 주계약·특약·보험료 예시]]></title>
     <link href="https://insurance.ambitstock.com/products/samsung-silson-4g/" />
@@ -197,53 +245,5 @@
     <updated>2026-04-24T15:00:00.000Z</updated>
     <category term="company" />
     <summary><![CDATA[KB손해보험의 실손·자동차·장기손해보험 라인업과 지급여력비율을 공시 기준으로 정리합니다.]]></summary>
-  </entry>
-  <entry>
-    <title><![CDATA[메리츠화재 — 치아·간병·장기보험 포트폴리오]]></title>
-    <link href="https://insurance.ambitstock.com/companies/meritz-fire/" />
-    <id>https://insurance.ambitstock.com/companies/meritz-fire/</id>
-    <updated>2026-04-24T15:00:00.000Z</updated>
-    <category term="company" />
-    <summary><![CDATA[메리츠화재해상보험의 치아·간병·운전자 등 장기보험 라인업과 지급여력비율을 공시 자료 기준으로 정리합니다.]]></summary>
-  </entry>
-  <entry>
-    <title><![CDATA[NH농협생명 — 방카슈랑스 중심 생명보험사 개요]]></title>
-    <link href="https://insurance.ambitstock.com/companies/nh-nonghyup-life/" />
-    <id>https://insurance.ambitstock.com/companies/nh-nonghyup-life/</id>
-    <updated>2026-04-24T15:00:00.000Z</updated>
-    <category term="company" />
-    <summary><![CDATA[NH농협생명보험의 연금·종신·건강 상품 라인업, 지급여력비율, 농협 네트워크 기반 판매 특성을 공시 자료 기준으로 정리합니다.]]></summary>
-  </entry>
-  <entry>
-    <title><![CDATA[실손의료보험 청구 방법 — 모바일 앱·종이 제출 단계별 가이드]]></title>
-    <link href="https://insurance.ambitstock.com/guides/silson-claim-howto/" />
-    <id>https://insurance.ambitstock.com/guides/silson-claim-howto/</id>
-    <updated>2026-04-24T15:00:00.000Z</updated>
-    <category term="guide" />
-    <summary><![CDATA[실손 청구에 필요한 영수증·세부내역서·진료비 세부내역서 발급 순서, 보험사 앱·팩스·우편 제출 경로, 소액(3만원 이하) 간소화 청구까지 단계별로 정리합니다.]]></summary>
-  </entry>
-  <entry>
-    <title><![CDATA[교통사고 사고처리 단계별 대응 — 초동조치부터 보험금 수령까지]]></title>
-    <link href="https://insurance.ambitstock.com/guides/car-accident-process/" />
-    <id>https://insurance.ambitstock.com/guides/car-accident-process/</id>
-    <updated>2026-04-24T15:00:00.000Z</updated>
-    <category term="guide" />
-    <summary><![CDATA[사고 직후 안전·사진·진술서 작성부터, 경찰신고·보험사 접수·과실비율 협의·치료·합의·보험금 수령까지 단계별로 정리합니다. 자동차보험과 운전자보험 개입 지점까지.]]></summary>
-  </entry>
-  <entry>
-    <title><![CDATA[보험료 세액공제·연말정산 활용 — 보장성·연금 공제 한도 총정리]]></title>
-    <link href="https://insurance.ambitstock.com/guides/tax-credit-guide/" />
-    <id>https://insurance.ambitstock.com/guides/tax-credit-guide/</id>
-    <updated>2026-04-24T15:00:00.000Z</updated>
-    <category term="guide" />
-    <summary><![CDATA[보장성 보험료 100만원 한도 13.2% 세액공제, 연금저축·IRP 900만원 한도 13.2~16.5% 세액공제 구조와 실제 환급액 계산 방법, 중복공제 주의사항을 정리합니다.]]></summary>
-  </entry>
-  <entry>
-    <title><![CDATA[갱신형 vs 비갱신형 보험 — 장기적으로 누가 더 유리한가]]></title>
-    <link href="https://insurance.ambitstock.com/guides/renewal-vs-non-renewal/" />
-    <id>https://insurance.ambitstock.com/guides/renewal-vs-non-renewal/</id>
-    <updated>2026-04-24T15:00:00.000Z</updated>
-    <category term="guide" />
-    <summary><![CDATA[갱신형의 초기 저렴함과 장기 보험료 급등 구조, 비갱신형의 초기 부담과 장기 안정성을 실제 인상 사례와 함께 비교. 상품별 적합성 판단 기준을 정리합니다.]]></summary>
   </entry>
 </feed>

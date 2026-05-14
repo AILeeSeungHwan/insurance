@@ -87,6 +87,25 @@ export function SourceList({ items }) {
   )
 }
 
+export function ExperienceBox({ children, html, name = '이승환', role = '보험모아 편집장' }) {
+  return (
+    <div style={{
+      background: '#F0FDF4', border: '1px solid #BBF7D0',
+      borderRadius: 12, padding: '18px 22px', margin: '20px 0',
+      position: 'relative',
+    }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
+        <span style={{ fontSize: 18 }}>💬</span>
+        <span style={{ fontSize: 12, fontWeight: 700, color: '#15803D' }}>편집장의 직접 경험</span>
+        <span style={{ fontSize: 11, color: '#86EFAC' }}>— {name} · {role}</span>
+      </div>
+      <div style={{ fontSize: 14, lineHeight: 1.85, color: '#166534', fontStyle: 'normal' }}>
+        {html ? <div dangerouslySetInnerHTML={{ __html: html }} /> : children}
+      </div>
+    </div>
+  )
+}
+
 export function YmylBadge({ level }) {
   const MAP = {
     A: { label: '개별 보험상품', color: '#DC2626', bg: '#FEE2E2' },
