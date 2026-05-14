@@ -7,6 +7,7 @@ import MultiplexAd from './MultiplexAd'
 import TopAdRow from './TopAdRow'
 import Faq from './Faq'
 import CalculatorWidget from './calculators'
+import { AuthorByline, AuthorCardFull } from './AuthorCard'
 import {
   InfoBox, WarningBox, RiskBox, InsuranceDisclaimer, SourceList, YmylBadge
 } from './InsuranceBoxes'
@@ -15,7 +16,7 @@ import {
   financialProductSchema, insuranceCompanySchema, webApplicationSchema, howToSchema
 } from '../lib/jsonld'
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://insurancemoa.ambitstock.com'
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://insurance.ambitstock.com'
 const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || '보험모아'
 
 const PREFIX = {
@@ -143,10 +144,18 @@ export default function PostRenderer({ meta, postData, related }) {
     { name: meta.title },
   ]
 
-  const ldArticle = articleSchema({
-    title: meta.title, description: meta.description, url: canonicalUrl,
-    date: meta.publishedAt, updated: meta.updatedAt, tags: meta.tags,
-  })
+  const ldArticle = {
+    ...articleSchema({
+      title: meta.title, description: meta.description, url: canonicalUrl,
+      date: meta.publishedAt, updated: meta.updatedAt, tags: meta.tags,
+    }),
+    author: {
+      '@type': 'Person',
+      name: '이승환',
+      email: 'shlee192300@gmail.com',
+      url: SITE + '/about/',
+    },
+  }
   const ldBreadcrumb = breadcrumbSchema([{ name: SITE_NAME, url: '/' }, ...breadcrumbItems])
 
   const ldProduct = meta.category === 'product'
@@ -212,6 +221,7 @@ export default function PostRenderer({ meta, postData, related }) {
             업데이트: {meta.updatedAt}
             {meta.publicDisclosureDate && <span style={{ marginLeft:10 }}>· 공시 기준일 {meta.publicDisclosureDate}</span>}
           </div>
+          <AuthorByline />
         </header>
 
         <TopAdRow />
@@ -228,25 +238,45 @@ export default function PostRenderer({ meta, postData, related }) {
         )}
 
         {meta.tags && meta.tags.length > 0 && (
-          <div style={{ marginTop:28, marginBottom:18 }}>
+          <div style={{ marginTop:28, marginBottom:4 }}>
             {meta.tags.map(t => (
               <span key={t} style={{ display:'inline-block', fontSize:12, padding:'4px 10px', borderRadius:20, background:'#F3F4F6', color:'#475569', marginRight:6, marginBottom:6 }}>#{t}</span>
             ))}
           </div>
         )}
 
+        <AuthorCardFull />
+
         {related && related.length > 0 && (
           <section style={{ marginTop:28, paddingTop:22, borderTop:'1px solid #E5E7EB' }}>
-            <h2 style={{ fontSize:17, fontWeight:800, marginBottom:10 }}>관련 콘텐츠</h2>
-            <ul style={{ listStyle:'none', padding:0, margin:0 }}>
-              {related.map(r => (
-                <li key={r.slug} style={{ padding:'10px 0', borderBottom:'1px solid #F3F4F6' }}>
-                  <Link href={r.url} style={{ color:'#1D4ED8', textDecoration:'none', fontSize:14, fontWeight:600 }}>
-                    {r.title}
+            <h2 style={{ fontSize:16, fontWeight:800, marginBottom:14, color:'#111827' }}>관련 콘텐츠</h2>
+            <div style={{ display:'grid', gridTemplateColumns:'repeat(2,1fr)', gap:10 }} className="grid-2">
+              {related.map(r => {
+                const COLORS = {
+                  product:'#DC2626', category:'#1D4ED8', company:'#0891B2',
+                  addon:'#EA580C', situation:'#7C3AED', tool:'#0284C7',
+                  compare:'#B91C1C', guide:'#475569',
+                }
+                const LABELS = {
+                  product:'보험상품', category:'보험종류', company:'보험사',
+                  addon:'생활정보', situation:'상황허브', tool:'계산기',
+                  compare:'비교', guide:'가이드',
+                }
+                const c = COLORS[r.category] || '#6b7280'
+                const l = LABELS[r.category] || r.category
+                return (
+                  <Link key={r.slug} href={r.url} style={{ textDecoration:'none' }}>
+                    <div style={{
+                      border:'1px solid #E5E7EB', borderRadius:10, padding:'12px 14px',
+                      background:'#fff', transition:'box-shadow 0.15s',
+                    }}>
+                      <span style={{ fontSize:10, fontWeight:700, color:c, background: c + '18', padding:'2px 6px', borderRadius:4, display:'inline-block', marginBottom:6 }}>{l}</span>
+                      <div style={{ fontSize:13, fontWeight:600, color:'#111827', lineHeight:1.45 }}>{r.title}</div>
+                    </div>
                   </Link>
-                </li>
-              ))}
-            </ul>
+                )
+              })}
+            </div>
           </section>
         )}
       </article>
